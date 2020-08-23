@@ -13,6 +13,10 @@
     margin: 60px 0px 30px 30px;
 }
 
+/* footer {
+    padding-bottom: 0px;
+} */
+
 #footbar1 {
     background-color: teal;
     height: 5px;
@@ -23,6 +27,11 @@
     height: 30px;
     color: white;
     text-align: center;
+}
+
+#footbar2 p {
+    margin-bottom: 0px;
+
 }
 
 @media only screen and (max-width: 767px) {
