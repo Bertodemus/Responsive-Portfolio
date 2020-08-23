@@ -1,6 +1,16 @@
  body {
+    background-image: url("images/peachabstract1920.jpg");
     background-color: lightgrey;
+    background-position: center;
+    background-repeat: no-repeat;
 } 
+
+hr {
+    height:2px;
+    border-width:0;
+    color:#f38b35;
+    background-color:#f38b35;
+}
 
 #myface {
     float: left;
@@ -10,22 +20,18 @@
 #about-me {
     background-color: white;
     padding: 30px 20px 30px 20px;
-    margin: 60px 0px 30px 30px;
+    margin: 60px 0px 40px 30px;
 }
 
-/* footer {
-    padding-bottom: 0px;
-} */
-
 #footbar1 {
-    background-color: teal;
+    background-color: #f38b35;
     height: 5px;
 }
 
 #footbar2 {
-    background-color: gray;
+    background-color: lightgrey;
     height: 30px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
