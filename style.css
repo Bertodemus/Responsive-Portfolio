@@ -1,7 +1,6 @@
  body {
     background-image: url("images/peachabstract1920.jpg");
-    background-color: lightgrey;
-    background-position: center;
+    background-color: #f2b175;
     background-repeat: no-repeat;
 } 
 
@@ -12,26 +11,34 @@ hr {
     background-color:#f38b35;
 }
 
+header h1 {
+    font-family: 'Alata', sans-serif;
+}
+
+#navname {
+    font-family: 'Alata', sans-serif;
+}
+
 #myface {
     float: left;
     margin-right: 10px;
 }
 
 #about-me {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 30px 20px 30px 20px;
     margin: 60px 0px 40px 30px;
 }
 
 #footbar1 {
-    background-color: #f38b35;
+    background-color: #fb9f52;
     height: 5px;
 }
 
 #footbar2 {
-    background-color: lightgrey;
+    background-color: #f8f9fa;
     height: 30px;
-    color: black;
+    color: gray;
     text-align: center;
 }
 
@@ -43,5 +50,9 @@ hr {
 @media only screen and (max-width: 767px) {
     #about-me {
         margin-left: 0px;
+    }
+
+    #about-me img{
+        width: 150px;
     }
 }
