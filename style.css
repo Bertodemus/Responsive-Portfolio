@@ -1,6 +1,13 @@
- body {
+#peach {
     background-image: url("images/peachabstract1920.jpg");
     background-color: #f2b175;
+    background-repeat: no-repeat;
+} 
+
+#lime {
+    background-image: url("images/greenbabstract1920.jpg");
+    background-color: #f9fbfa;
+    background-position: center;
     background-repeat: no-repeat;
 } 
 
