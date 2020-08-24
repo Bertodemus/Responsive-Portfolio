@@ -35,7 +35,7 @@ header h1 {
     font-family: 'Alata', sans-serif;
 }
 
-#myface {
+.myface {
     float: left;
     margin-right: 10px;
 }
@@ -80,4 +80,11 @@ header h1 {
         width: 150px;
     }
 
+}
+
+@media only screen and (max-width: 576px) {
+    #about-me, #contact, #portfolio {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
