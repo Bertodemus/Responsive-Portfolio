@@ -11,6 +11,13 @@
     background-repeat: no-repeat;
 } 
 
+#purp {
+    background-image: url("images/purpabstract2754.jpg");
+    background-color: #f9fbfa;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
 hr {
     height:2px;
     border-width:0;
@@ -40,6 +47,10 @@ header h1 {
     margin: 60px 0px 40px 30px;
 }
 
+#portfolio {
+    min-width: 760px;
+}
+
 #footbar1 {
     background-color: #fb9f52;
     height: 5px;
@@ -60,6 +71,10 @@ header h1 {
 @media only screen and (max-width: 767px) {
     #about-me, #contact, #portfolio {
         margin-right: 30px;
+    }
+
+    #portfolio {
+        min-width: auto;
     }
 
     #about-me img{
