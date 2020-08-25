@@ -18,7 +18,7 @@
 } 
 
 hr {
-    height:2px;
+    height:1px;
     border-width:0;
     color:#f38b35;
     background-color:#f38b35;
@@ -38,6 +38,14 @@ header h1 {
 .myface {
     float: left;
     margin-right: 10px;
+}
+
+#social img{
+    float: left;
+}
+
+#social {
+    margin-left: 10px;
 }
 
 #about-me, #contact, #portfolio {
@@ -78,6 +86,10 @@ header h1 {
 
     #about-me img{
         width: 150px;
+    }
+
+    #social img{
+        width: 60px;
     }
 
 }
