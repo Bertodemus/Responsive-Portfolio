@@ -20,19 +20,19 @@
 hr {
     height:1px;
     border-width:0;
-    color:#f38b35;
-    background-color:#f38b35;
+    color:rgb(194, 194, 194);
+    background-color:rgb(194, 194, 194);
 }
 
 header h1 {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .navbar-nav .active {
     text-decoration: underline;
 }
 
 #navname {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .myface {
@@ -42,6 +42,7 @@ header h1 {
 
 #social img{
     float: left;
+    width: 45px;
 }
 
 #social {
@@ -60,7 +61,7 @@ header h1 {
 }
 
 #footbar1 {
-    background-color: #fb9f52;
+    background-color: rgb(194, 194, 194);
     height: 5px;
 }
 
@@ -90,7 +91,7 @@ header h1 {
     }
 
     #social img{
-        width: 60px;
+        width: 45px;
     }
 
 }
