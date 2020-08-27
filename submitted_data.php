@@ -5,7 +5,7 @@
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
     $message = $full_name . " wrote the following:" . "\n\n" . $_POST['userMessage'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['userMessage'];
+    $message2 = "Here is a copy of your message " . $full_name . "\n\n" . $_POST['userMessage'];
     $message = wordwrap($message, 70, "\r\n");
     $message2 = wordwrap($message2, 70, "\r\n");
 
