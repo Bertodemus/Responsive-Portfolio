@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
+   
+    <!--I added in "PROCESS NOTE" comments. I realize that this is not common practice, but I wanted to note my changes for the sake of the homework. These are to be seen as separate from the section comments.-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +12,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
+    
     <body id="peach">
         <!-- This section adds in the Navigation bar, which will remain persistent-->
         <header>
@@ -40,14 +40,15 @@
         <!-- The is the begnning of the main content -->
         <main id="main" class="container">
             <div class="row">
-                <div id="about-me" class="col-md-8 rounded-lg shadow-lg">
+                <section id="about-me" class="col-md-8 rounded-lg shadow-lg">
                     <header>
                         <h1>About Berto!</h1>
                         <hr>
                     </header>
                     <img class="myface" src="images/Faceme300A.png" alt="illustration of Roberto's face">
-                    <p>This is Roberto Rubet's website and this is a small blurb about him. He is a Latino artist that upon completeing the Full Stack Web Development Bootcamp, through the University of Richmond, will be a well rounded web development powerhouse. With 18 years of experience as a designer/illustrator and his ability to absorb complex technical data, he will emerge as a developer capable of unifying design and technology, creation and implementation, analysis and realization. You can see examples of his work<a href="portfolio.html"> here.</a></p>
+                    <p>This is Roberto Rubet's website and this is a small blurb about him. He is a Latino artist that upon completeing the Full Stack Web Development Bootcamp, through the University of Richmond, will be a well rounded web development powerhouse. With 18 years of experience as a designer/illustrator and his ability to absorb complex technical data, he will emerge as a developer capable of unifying design and technology, creation and implementation, analysis and realization. You can see examples of his work<a href="portfolio.html"> here.</a> (backgrounds & illustrations created by Berto!)</p>
                     <div class="row">
+                        <!-- PROCESS NOTE: This div contains my social links; I formatted them within one column because I wanted to control their size and maintain visibility -->
                         <div id="social" class="col-md-12">
                             <hr>
                             <a href="https://github.com/Bertodemus" target="_blank"><img src="images/github60.png" alt="github icon"></a>
@@ -56,9 +57,8 @@
                             <a href="mailto:roberto@robertorubet.com"><img src="images/email60.png"  alt="email icon"></a>
                         </div>
                     </div>
-                
-                
-                </div>
+                </section>
+                <div class="col-md-4"></div> <!--RPOCESS NOTE: this is striclty for formatting to match the assignment, though from what I understand it is not necessary. You can have less then 12 columns, but not more than 12-->
             </div>
         </main>
         <!-- This is the begnning of the footer -->
@@ -76,11 +76,10 @@
                 </div>
             </div>
         </footer>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     </body>
 </html>
