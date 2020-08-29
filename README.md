@@ -1,6 +1,6 @@
 # CSS and Bootstrap Homework: Responsive Portfolio
 
-This is my rendering of responsive based on set parameters and reference images.
+This is my rendering of a responsive design based on set parameters and reference images.
 
 ## Overview
 
